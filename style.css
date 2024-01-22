@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: no-wrap;
+}
+.gridBoxes {
+    flex-grow: 1;
+    flex-basis: 0;
+    height: auto;
+    aspect-ratio: 1/1;
+    border: 1px solid pink;
+    box-sizing: border-box;
+   background-color: white;
+   transition: background-color 3s ease;
+}
+
+.gridBoxes:hover {
+    background-color: black;
+    transition: none;
+}
+
